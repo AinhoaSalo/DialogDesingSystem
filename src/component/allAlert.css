@@ -1,0 +1,63 @@
+
+.containerAlert{
+    background-color: rgb(252, 246, 247);
+    border-radius: 5px;
+    height: 250px; 
+    width: 350px;
+    padding: 10px;
+    margin: 20px;
+   
+}
+
+.containerAlertUps{
+    background-color: rgb(252, 246, 247);
+    border-radius: 5px;
+    height: 200px; 
+    width: 350px;
+    padding: 10px;
+    margin: 20px;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px;
+}
+
+.iconTitleAndParraf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.containerAlert{
+    color: "rgb(233, 224, 104)";
+    font-size: "50px";
+}
+
+.title, .text{
+    margin: 0px;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.deleteButton{
+    background-color: rgb(160, 119, 199);
+    color: white;    
+    border-radius: 5px;
+    border: none;
+    padding: 10px 12px;
+    margin-right: 5px;
+}
+
+.cancelButton{
+    background-color: white;
+    color: rgb(160, 119, 199);
+    border-radius: 5px;
+    border: 1px solid rgb(160, 119, 199);
+    padding: 5px 10px;
+    margin-left: 5px;
+}
